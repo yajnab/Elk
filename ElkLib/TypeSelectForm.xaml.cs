@@ -130,6 +130,15 @@ namespace Elk.Common
                 case ElkLib.FeatureType.Waterway:
                     availableTemp = Elk.Common.ElkLib.Waterway;
                     break;
+                case ElkLib.FeatureType.Hospital:
+                    availableTemp = Elk.Common.ElkLib.Hospital;
+                    break;
+                case ElkLib.FeatureType.Restaurants:
+                    availableTemp = Elk.Common.ElkLib.Restaurants;
+                    break;
+                case ElkLib.FeatureType.Museum:
+                    availableTemp = Elk.Common.ElkLib.Museum;
+                    break;
             };
 
             availableTemp.Sort();

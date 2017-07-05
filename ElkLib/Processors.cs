@@ -15,12 +15,12 @@ namespace Elk.Common
         static double earthRadm = 6371000;
         public static string[] featureKeys = { "aerialway", "aeroway", "amenity", "barrier", "boundary", "building", "craft", "emergency", "geological", "highway",
                                       "historic", "landuse", "leisure", "man_made", "military", "natural", "office", "place", "power", "public_transport",
-                                      "railway", "route", "shop", "sport", "tourism", "waterway" };
+                                      "railway", "route", "shop", "sport", "tourism", "waterway", "hospital", "restaurants", "museum" };
 
         public enum FeatureType
         {
             Aerialway, Aeroway, Amenity, Barrier, Boundary, Building, Craft, Emergency, Geological, Highway, Historic, Landuse, Leisure, ManMade, Military,
-            Natural, Office, Place, Power, PublicTransport, Railway, Route, Shop, Sport, Tourism, Waterway
+            Natural, Office, Place, Power, PublicTransport, Railway, Route, Shop, Sport, Tourism, Waterway, Hospital, Restaurants, Museum
         };
 
         #region SubTypes
@@ -154,6 +154,13 @@ namespace Elk.Common
                                                                 "information", "motel", "museum", "picnic_site", "theme_park", "viewpoint", "wilderness_hut", "zoo", "yes" };
 
         public static List<string> Waterway = new List<string> { "river", "riverbank", "stream", "canal", "drain", "ditch", "dock", "boatyard", "dam", "weir", "waterfall", "lock_gate", "turning_point", "water_point" };
+
+        public static List<string> Hospital = new List<string> { "hospital" };
+
+        public static List<string> Restaurants = new List<string> { "restaurant" };
+
+        public static List<string> Museum = new List<string> { "museum" };
+
 
         #endregion
 
