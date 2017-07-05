@@ -4,16 +4,16 @@
 library
 C#
 .cs
-C:\Users\asus\Documents\GitHub\Elk\Elk.GHComponents\obj\Release\
+C:\Users\asus\Documents\GitHub\Elk\Elk.GHComponents\obj\Debug64\
 Elk.GHComponents
 none
 false
-TRACE
+DEBUG;TRACE
 
 1-1296249823
 
 12-1869048193
-14-761057373
+14-1430349891
 ComponentLocationForm.xaml;
 
 False

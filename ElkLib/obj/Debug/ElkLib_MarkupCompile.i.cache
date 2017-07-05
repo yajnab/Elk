@@ -4,7 +4,7 @@
 library
 C#
 .cs
-\\nt11\00\00603.000\01_LINE\tlogan\Development\Elk2\ElkCross\ElkLib\obj\Debug\
+C:\Users\asus\Documents\GitHub\Elk\ElkLib\obj\Debug\
 Elk.Common
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 1-1177917827
 
-5-1645874814
-181497595043
+5-1614572877
+181550365678
 TypeSelectForm.xaml;
 
 False
