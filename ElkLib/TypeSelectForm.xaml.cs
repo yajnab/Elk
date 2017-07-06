@@ -139,6 +139,39 @@ namespace Elk.Common
                 case ElkLib.FeatureType.Museum:
                     availableTemp = Elk.Common.ElkLib.Museum;
                     break;
+                case ElkLib.FeatureType.Bank:
+                    availableTemp = Elk.Common.ElkLib.Bank;
+                    break;
+                case ElkLib.FeatureType.ATM:
+                    availableTemp = Elk.Common.ElkLib.ATM;
+                    break;
+                case ElkLib.FeatureType.Airport:
+                    availableTemp = Elk.Common.ElkLib.Airport;
+                    break;
+                case ElkLib.FeatureType.Movie:
+                    availableTemp = Elk.Common.ElkLib.Movie;
+                    break;
+                case ElkLib.FeatureType.Worship:
+                    availableTemp = Elk.Common.ElkLib.Worship;
+                    break;
+                case ElkLib.FeatureType.School:
+                    availableTemp = Elk.Common.ElkLib.School;
+                    break;
+                case ElkLib.FeatureType.University:
+                    availableTemp = Elk.Common.ElkLib.University;
+                    break;
+                case ElkLib.FeatureType.Taxi_Stand:
+                    availableTemp = Elk.Common.ElkLib.Taxi_Stand;
+                    break;
+                case ElkLib.FeatureType.Gym:
+                    availableTemp = Elk.Common.ElkLib.Gym;
+                    break;
+                case ElkLib.FeatureType.Train_Station:
+                    availableTemp = Elk.Common.ElkLib.Train_Station;
+                    break;
+                case ElkLib.FeatureType.Doctor:
+                    availableTemp = Elk.Common.ElkLib.Doctor;
+                    break;
             };
 
             availableTemp.Sort();

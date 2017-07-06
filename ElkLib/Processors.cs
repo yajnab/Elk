@@ -15,12 +15,14 @@ namespace Elk.Common
         static double earthRadm = 6371000;
         public static string[] featureKeys = { "aerialway", "aeroway", "amenity", "barrier", "boundary", "building", "craft", "emergency", "geological", "highway",
                                       "historic", "landuse", "leisure", "man_made", "military", "natural", "office", "place", "power", "public_transport",
-                                      "railway", "route", "shop", "sport", "tourism", "waterway", "hospital", "restaurants", "museum" };
+                                      "railway", "route", "shop", "sport", "tourism", "waterway", "hospital", "restaurants", "museum", "bank", "atm", "airport", "movie", "movie_rental", "movie_theater",
+                                        "worship", "mosque", "hindu_temple", "church", "school", "university", "taxi_stand", "store", "gym", "train_station", "doctor"};
 
         public enum FeatureType
         {
             Aerialway, Aeroway, Amenity, Barrier, Boundary, Building, Craft, Emergency, Geological, Highway, Historic, Landuse, Leisure, ManMade, Military,
-            Natural, Office, Place, Power, PublicTransport, Railway, Route, Shop, Sport, Tourism, Waterway, Hospital, Restaurants, Museum
+            Natural, Office, Place, Power, PublicTransport, Railway, Route, Shop, Sport, Tourism, Waterway, Hospital, Restaurants, Museum, Bank, ATM, Airport, Movie,
+            Worship, School, University, Taxi_Stand, Store, Gym, Train_Station, Doctor
         };
 
         #region SubTypes
@@ -160,6 +162,38 @@ namespace Elk.Common
         public static List<string> Restaurants = new List<string> { "restaurant" };
 
         public static List<string> Museum = new List<string> { "museum" };
+
+        public static List<string> Bank = new List<string> { "bank" };
+
+        public static List<string> ATM = new List<string> { "atm" };
+
+        public static List<string> Airport = new List<string> { "airport" };
+
+        public static List<string> Movie = new List<string> { "movie", "movie_rental", "movie_theater" };
+
+        public static List<string> Worship = new List<string> { "worship", "mosque", "hindu_temple", "church" };
+
+        public static List<string> School = new List<string> { "school" };
+
+        public static List<string> University = new List<string> { "university" };
+
+        public static List<string> Taxi_Stand = new List<string> { "taxi_stand" };
+
+        public static List<string> Store = new List<string> { "store" };
+
+        public static List<string> Gym = new List<string> { "gym" };
+
+        public static List<string> Train_Station = new List<string> { "train_station" };
+
+        public static List<string> Doctor = new List<string> { "doctor" };
+
+
+
+
+
+
+
+
 
 
         #endregion
